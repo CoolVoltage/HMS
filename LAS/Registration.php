@@ -72,7 +72,7 @@ tag.style.width = 128 +"px";
 <br/>
 <br/>
 <div id='register'>
-<form name="Rinfo" action="http://127.0.0.1/LAS/register.php" method="POST">
+<form name="Rinfo" action="../LAS/register.php" method="POST">
         <p><label>Name          : </label><input type="text" name="name" id="name" onblur="validate(this,document.getElementById('help_name'),'Please enter your name',/^\w+$/,1);"/>
 		<span id="help_name" class="help"></span></p>
 		<p><label>Email         : </label><input type="text" name="email" id="email" onblur="validate(this,document.getElementById('help_email'),'Please enter a valid email address',/^[\w\.-_\+]+@[\w-]+(\.\w{2,4})+$/,2);"/>
