@@ -1,0 +1,47 @@
+<div class="index">
+<a href="location.php?num=1">1</a>
+2
+<a href="location.php?num=3">3</a>
+<a href="location.php?num=4">4</a>
+</div>
+<div class='text'>
+<h3>Tamil</h3>
+<img class='right' src="../Common CSS/tamil.png" />
+<?php
+require_once("para4.txt");
+?>
+</div>
+<br />
+<div class="text">
+<h3>Beaches</h3>
+
+
+<h5>Chennai Marina Beach</h5>
+Beach Watch Note Although Chennai beaches are both beautiful and inviting, they are not swimming beaches, due to strong under currents present along the shoreline. Swimming should not be attempted there. There are no lifeguards and rescue equipment is not provided at any of these beaches. However there are "beach police" who ride on horses and keep an eye on the people and look out for any trouble. People should avoid wearing swimwear or similar attire on these beach as such clothing is not appropriate there.
+Chennai has several well known beaches:
+
+
+<h5>Elliot's Beach</h5>
+Marina Beach, is 12 km long and offers excellent opportunities for walks and has a very wide sandy foreshore. Its width is up to 300 m (985 ft). The Marina of Madras is the second longest beach in the world. it is an elegant promenade with flower beds along its lanes. Along the shore, there are many buildings built during the British colonial rule. The South Beach Road runs past the Madras University, the Senate House, the Chepauk Palace (Nawabs of Carnatica once held their court here). It is the most popular gathering place for locals, especially in the evenings and on weekends. It can also get very crowded at those times. The beach is relatively less crowded in the early mornings and more pleasant. Walk along the Marina in the evening to cool off and eat crispy sundal and murukku. Watching sunset and sunrise from the beach is an experience by itself. It's not a swimming beach, though you will see people fully clothed taking partial dips. Other lesser known places in the Marina: Anna Square: Dr. C.N. Annadurai, former Chief Minister of Tamil Nadu was a very respectable personality among the people of Tamil Nadu. The mortal remains of Dr. C.N. Annadurai were buried at Anna Square, which is situated at the northern end of the Marina Beach. People from different parts of the state come here to pay their tribute to the great leader.<img class='left' src="../Common CSS/beach.jpg" /> It is located in the center of a park and the entrance is attractive. The beautiful arch is in the shape of twin converging elephant tusks. The tomb of Dr. C.N. Annadurai is flanked by imposing memorial pillar and eternal flame. People of Tamil Nadu affectionately called him 'Anna' meaning the elder brother. Though listed here Anna Square is not a must see place. There is nothing much to see, unless you have lots of time to spare.
+
+
+<h5>Breezy Beach</h5>
+Edward Elliot's beach, is spread along the coast down south from Marina. It is also the night beach for Chennai youth. This beach is comparatively quieter and it is located near Besant Nagar. At the end of this beach are the Velankanni church and the Ashtalakshmi temple. Good roads, pavements, walking track illuminated sands, makes a visit to this beach a real pleasure.
+Breezy Beach is located in the quiet neighborhood of Valmiki Nagar (Thiruvanmiyur) in Chennai. It is smaller and less popular than the Elliot's beach. This beach is not as commercialized as the Elliot's beach, and is hence more quiet and peaceful. Evenings are very pleasant and with gentle breezy here, Lots of tourists are attracted towards this beach. Since the residential area around this beach is occupied predominantly by young professionals working in the IT/ITES industries (that thrive in the area), this beach has turned into a hot-spot for them. It is less polluted and environment friendly. Those who look for a calm, cool and breezy place to relax, this beach is the best place in Chennai.
+Covelong as it was known earlier is a small fishing village located 40 km (25 mi) from Chennai on the way to Mahabalipuram. Now it is a luxury beach resort. There was a fort built by the Nawab of Carnatic, Saadat Ali. Now a luxury beach resort. It was here that the French General Labourdonnais landed his troops in 1746. Later it was taken by Robert Clive in 1752 and destroyed. The Beach is separated from the mainland by the canal running from Chennai to Mahabalipuram. Taj Group of Hotels runs the Fisherman's Cove Resort with rooms in the main buildings and cottages and the sandy beach here.
+</div>
+<div class="text">
+<h3>Museums and Art Galleries</h3>
+<h5>Government Museum</h5> [28], Pantheon Rd, Egmore. Established in 1857, the Government Museum of Chennai is one of the popular tourist destinations in the city. It is a multi-purpose State Government Museum located in Egmore, which is in the heart of the city, spreading over an area of 16.25 acres of land. Six independent buildings in this Museum campus has 46 galleries. There is an Archaeology Section, Zoology Section, Botany Section, Geology Section, Numismatics Section, Bronze Gallery , Children's museum, Art gallery and various other interesting sections and galleries. It is considered to be one of the oldest museums of India, since its inception dates back to the Colonial rule. There is history behind the origin of this Museum. In 1846 AD, the Madras Literary Society debated the proposal of establishing a museum in the then Madras. The proposal was approved by the Court of Directors of the East India Company in London. Chennai Government Museum was handed down with a sprawling complex and the presently maintained by the State Government. There are six independent buildings in the Museum campus, which compose of 46 galleries. The Museum was formally inaugurated on December 5, 1896 by the Sir Arthur Eli bank Havelock, the then Governor.<img class='right' src="../Common CSS/asquare.jpg" /> He named it after the former Governor, Lord Connenmara. The museum was designed by H. Irvin, the consulting architect of the Government of Madras. The Government Museum has a splendid hall, marvelous reading room and striking Teak wood shelf and stands divided into a number of sections. Note that parts of the museum are often closed. Phone: +91 44 2819-3238, 09:30-17:00 except holidays. A free guide service is available at 11:00 and 15:00.
+<h5>National Art Gallery</h5> The building of National Arts Gallery was built in the year 1907. This magnificent red sandstone building was designed by Henry Irwin and built by T. Namberumal Chetty. The building represents a typical Indo-Saracenic structure and was initially famous as the Victoria Memorial Hall. Built with sandstone and adorned with motifs, the building bears impressions of Mughal architecture. It is this architecture, not just the gallery collections that make it worth a visit. The gallery exhibits medieval handicrafts, sculptures, metal ware and paintings belonging to various schools of art and eras. The gallery's collections are displayed in four different sections: Tanjore Painting Gallery, Decorative Art Gallery, Indian Traditional Art Gallery and Ravi Varma Painting Gallery. The Tanjore paintings on glass are wonderful. The miniature paintings from Rajput and Mughal eras are fascinating too. The handicrafts that are displayed belong to the 11th and 12th century Indian handicraft period. The top floor, closed in May 2011, offered additional galleries. Sa-Th 09:30-17:00 except national holidays. +91 44 2819-3238.
+
+
+<h5>The Birla Planetarium</h5>
+The Birla Planetarium, at Kotturpuram, between Adyar and Guindy, is the most modern planetarium in the country. Adjoining the planetarium is a Periyar Science and Technology Museum which will be of interest to students and other science scholars. Built in memory of B.M. Birla, the well known industrialist and visionary, the Planetarium is considered to be the most modern in the country. Location: Tamilnadu Science & Technology Centre, Gandhi Mandapam Rd (Behind CLRI). Tele: +91 44 2441-0025 /6751/5250. The Science and Technology Centre is open daily except national holidays. Programmes at 10:45-13:45 and 15:45. In English at Noon, Tamil 14:30.
+</div>
+<div class="index">
+<a href="location.php?num=1">1</a>
+2
+<a href="location.php?num=3">3</a>
+<a href="location.php?num=4">4</a>
+</div>
