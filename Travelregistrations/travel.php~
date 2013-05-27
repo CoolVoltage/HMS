@@ -37,10 +37,10 @@ $("#cssmenu a").css({"width":"128px"});
 <div id='cssmenu'>
 <ul>
    <li class=''><a class='change' href='../Home/Home.php'><span>Home</span></a></li>
-   <li class='has-sub '><a class='change' href=''><span>Bookings</span></a>
+   <li class='has-sub '><a class='change' href='../Booking/BookingT.php'><span>Bookings</span></a>
       <ul>
-         <li><a  href='../Booking/BookingT.php'><span>Tourist</span></a></li>
-         <li><a href=''><span>Business</span></a></li>
+         
+         
       </ul>
    </li>
    <li><a class='change' href='../Location/location.php'><span>About Chennai</span></a></li>
@@ -60,9 +60,9 @@ $("#cssmenu a").css({"width":"128px"});
 	?>
 	<li class='has-sub '><a class='change' href='#'><span>Account</span></a>
 	<ul>
-         <li><a  href='#'><span>Your Profile</span></a></li>
-         <li><a href='#'><span>Booked History</span></a></li>
-         <li><a  href='#'><span>Cancel Registration</span></a></li>
+         
+         <li><a href='../myaccount/BookedH.php'><span>Booked History</span></a></li>
+         
          <li><a  href='../LAS/Logout.php'><span>Log Out</span></a></li>
     </ul>
 	</li>

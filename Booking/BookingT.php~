@@ -130,7 +130,7 @@ if(isset($_SESSION['uname']))
 </select>
 
 </p>
-<input type="form" value="Book Now!!!" onclick="check();"/>
+<input type="submit" value="Book Now!!!"/>
 </form>
 </div>
 <div id="footer">

@@ -81,7 +81,7 @@ if(isset($_SESSION['uname']))
 <br/>
 <br/>
 <div id="BookT">
-<form name="booking" method="POST" action="http://127.0.0.1/Booking/Booked.php">
+<form name="booking" method="POST" action="../Booking/Booked.php">
 <p>Number of Room(s) :
 <select name="Rnumber">
 	<option value ="1">1</option>

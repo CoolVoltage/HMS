@@ -81,7 +81,7 @@ if(isset($_SESSION['uname'])&&isset($id))
 { 
 ?>
 <div id="BookT">
-<form name="travel" method="POST" action='http://127.0.0.1/Travelregistrations/travelled.php'>
+<form name="travel" method="POST" action='../Travelregistrations/travelled.php'>
 <?php
 if($id=="1")
 {

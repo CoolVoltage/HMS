@@ -3,7 +3,7 @@ $result = session_id();
 if(empty($result))
 session_start();
 $error="";
-$action = "http://127.0.0.1" . $_SERVER["PHP_SELF"];
+$action ="../.." . $_SERVER["PHP_SELF"];
 if(isset($_GET['id']))
 $action = $action . "?id=" . $_GET['id'];
 
@@ -37,7 +37,7 @@ if(empty($_SESSION['uname']))
 			$error='<span class="help">Please Enter Username and Password.Or <a href="../LAS/Registration.php">Sign Up</a></span><br /><br />';
 		}
 	}
-echo("<form method='post' action=$action>");
+echo("<form method='post' action='$action'>");
 echo('<fieldset>');
 echo('<legend>Log In</legend>');
 echo('<center><label for="username">Username:</label>');

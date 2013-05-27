@@ -40,7 +40,7 @@ $result = session_id();
 if(empty($result))
 session_start();
 $error="";
-$action ='..' . $_SERVER["PHP_SELF"];
+$action = "../LAS/MLogin.php";
 if(empty($_SESSION['uname']))
 {if(isset($_POST['submit']))
 	{	
