@@ -70,7 +70,7 @@ $("#cssmenu a").css({"width":"128px"});
 <br/>
 <?php
 
-$action ='..' . $_SERVER["PHP_SELF"];
+$action ='BookedH.php';
 
 $dbc = mysqli_connect('127.0.0.1', 'root', 'pass', 'bookinginfo')
 or die('<span id="message">Error connecting to MySQL server.</span>');
@@ -79,8 +79,7 @@ $uname = $_SESSION['uname'];
 if ((isset($_POST["submit"]))) {
 	$option = $_POST["radio"];
 	$query="DELETE FROM $uname WHERE id=$option";
-	$result = mysqli_query($dbc,$query)
-	or die('die');
+	$result = mysqli_query($dbc,$query);
 	
 }
 $query = "SELECT * FROM $uname";

@@ -48,10 +48,10 @@ $("#cssmenu a").css({"width":"128px"});
    <li><a class='change' href='../Hotel Entertainment/hotel.php'><span>Facilities</span></a></li>
    <li class='has-sub active '><a class='change' href='#'><span>Travel Reservations</span></a>
    <ul>
-         <li><a  href='../Travel registrations/travel.php?id=1'><span>Air Tickets</span></a></li>
-         <li><a href='../Travel registrations/travel.php?id=2'><span>Train Tickets</span></a></li>
-         <li><a  href='../Travel registrations/travel.php?id=3'><span>Bus Tickets</span></a></li>
-         <li><a  href='../Travel registrations/travel.php?id=4'><span>Car Service</span></a></li>
+         <li><a  href='travel.php?id=1'><span>Air Tickets</span></a></li>
+         <li><a href='travel.php?id=2'><span>Train Tickets</span></a></li>
+         <li><a  href='travel.php?id=3'><span>Bus Tickets</span></a></li>
+         <li><a  href='travel.php?id=4'><span>Car Service</span></a></li>
     </ul>
 	</li>
 	<?php
