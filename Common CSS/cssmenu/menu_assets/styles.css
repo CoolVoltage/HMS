@@ -10,6 +10,11 @@ body { position : relative;
     margin-right: auto;
 	
 	}
+#calendar td
+{
+text-align: center;
+cursor: pointer;
+}
 
 #login
 	{ 	

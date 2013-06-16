@@ -7,6 +7,7 @@
  <script type="text/javascript" src="../Common CSS/jquery.js"></script>
  <link href="../Common CSS/cssmenu/menu_assets/styles.css" rel="stylesheet" type="text/css" />
  <script type="text/javascript" src="../Common CSS/alignment.js"></script>
+  <script type="text/javascript" src="ajaxcall.js"></script>
 </head>
 <body>
 <div id="matter">
@@ -74,6 +75,9 @@ $("#cssmenu a").css({"width":"128px"});
 $result = session_id();
 if(empty($result))
 session_start();
+if(!($_POST['day'])) {
+	echo '<META HTTP-EQUIV="Refresh" Content="0; URL=BookingT.php">';
+}
 require_once('../Common CSS/top.php');
 $dbc = mysqli_connect('127.0.0.1', 'root', 'pass', 'bookinginfo')
 or die('<span id="message">Error connecting to MySQL server.</span>');
@@ -91,6 +95,56 @@ $query = "INSERT INTO $uname(N_Rooms,N_Adults,N_Children,R_Type,I_Date,NOD)" .
 "VALUES ('$n_rooms', '$n_adults', '$n_children', '$r_type', '$i_date', '$nod') " ;
 $result = mysqli_query($dbc, $query)
 or die('<span id="message">Error querying database.</span>');
+mysqli_close($dbc);
+?>
+<script>
+
+var day = <?php echo json_encode($day); ?>;
+var month = <?php echo json_encode($month); ?>;
+var year = <?php echo json_encode($year); ?>;
+var nod = <?php echo json_encode($nod); ?>;
+var rtype = <?php echo json_encode($r_type); ?>;
+var times = <?php echo json_encode($n_rooms); ?>;
+var date = Date(year,month,day);
+var datelog = [];
+for (var i=0;i<nod;i++) {
+	var date = new Date(year,month,day);
+	var Day = parseInt(day)+parseInt(i);
+	date.setDate(Day);
+	Day =date.getDate();
+	var Month =date.getMonth();
+	var Year =date.getFullYear();
+	datelog.push(""+Year+Month+Day);
+
+}
+
+	try {
+request = new XMLHttpRequest();
+} catch (tryMS) {
+	try {
+		request = new ActiveXObject("Msxm12.XMLHTTP");
+	} catch (otherMS) {
+		try {
+			request = new ActiveXObject("Microsoft.XMLHTTP");
+		}	catch (failed) 
+		{request = null;
+	}
+}
+}
+
+var url = "../Common CSS/log.php?log=" + datelog + '&type=' + rtype + '&times=' + times;
+request.open("GET",url,true);
+request.onreadystatechange = function () {
+	if (request.readyState == 4) {
+						
+				if (request.status == 200) {
+								
+				}
+		}
+} 
+request.send(null);	
+</script>
+<?php
 if($result)
 {
 ?>

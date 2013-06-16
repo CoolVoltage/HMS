@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 27, 2013 at 11:39 PM
+-- Generation Time: Jun 12, 2013 at 09:32 PM
 -- Server version: 5.5.31
 -- PHP Version: 5.4.6-1ubuntu1.2
 
@@ -94,6 +94,16 @@ CREATE TABLE IF NOT EXISTS `pck1` (
 
 INSERT INTO `pck1` (`id`, `N_Rooms`, `N_Adults`, `N_Children`, `R_Type`, `I_Date`, `NOD`) VALUES
 (1, '1', '6', '1', 'Royal Club Suite Room(8)', '15/5/2014', '3');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `roomlog`
+--
+
+CREATE TABLE IF NOT EXISTS `roomlog` (
+  `roomid` varchar(9) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

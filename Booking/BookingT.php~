@@ -10,7 +10,7 @@
 <script type="text/javascript" src="../Common CSS/Form_validate.js"></script>
 <script type="text/javascript" src="../Common CSS/booking.js"></script>
 </head>
-<body onload="dropbox();">
+<body>
 <div id="matter">
 <?php
 $result = session_id();
@@ -81,7 +81,7 @@ if(isset($_SESSION['uname']))
 <br/>
 <br/>
 <div id="BookT">
-<form name="booking" method="POST" action="http://127.0.0.1/Booking/Booked.php">
+<form name="booking" method="POST" action="../Booking/Booked.php">
 <p>Number of Room(s) :
 <select name="Rnumber">
 	<option value ="1">1</option>
@@ -116,8 +116,20 @@ if(isset($_SESSION['uname']))
 </select>
 </p>
 <p> Check In :
-<select name="day" id="day"></select><select name="month" id="month"></select><select name="year"><option>2013</option><option>2014</option></select>
-
+<select id="month" onchange="changecalendar()"></select><select id="year" onchange="changecalendar()"><option>2013</option><option>2014</option></select>
+<table id="calendar">
+<tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+<tr id="Week1"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr id="Week2"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr id="Week3"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr id="Week4"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr id="Week5"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr id="Week6"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
+</p>
+<input type="hidden" id="DAy" name="day">
+<input type="hidden" id="MOnth" name="month">
+<input type="hidden" id="YEar" name="year">
 <p> Number of days of stay :
 <select name="nod">
 <option>1</option>

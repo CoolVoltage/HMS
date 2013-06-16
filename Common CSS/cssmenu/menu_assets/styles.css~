@@ -10,6 +10,10 @@ body { position : relative;
     margin-right: auto;
 	
 	}
+#calendar td
+{
+text-align: center;
+}
 
 #login
 	{ 	
@@ -377,6 +381,6 @@ border : thin solid black;
 .two
 {	background-color: #696969;
 	}
-.special
+#special
 { background-color: #778899;}
 
